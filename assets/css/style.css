@@ -38,3 +38,41 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.55vw;
 }
+
+.hero {
+    padding: 60px;
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-info ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 75%;
+}
+
+.contact-info ul li {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 100%;
+    flex: 1;
+    font-size: 1.50vw;
+    justify-content: flex-end;
+}
+
+.contact-info a {
+    color: #2596be;
+    text-decoration: none;
+}

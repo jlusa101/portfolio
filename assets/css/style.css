@@ -1,3 +1,40 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #041014;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+header h1 {
+    padding-left: 45px;
+    padding-right: 10px;
+    font-size: 40px;
+    color: #041014;
+    background-color: #2596be;
+}
+
+header a {
+    color: #2596be;
+    text-decoration: none;
+}
+
+header nav ul {
+    padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding-right: 50px;
+    font-weight: lighter;
+    font-size: 1.55vw;
 }

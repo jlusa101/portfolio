@@ -83,6 +83,55 @@ header nav ul li a {
 }
 
 
+/* Projects */
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work h1 {
+    margin-left: -3px;
+    margin-right: 30px;
+}
+
+.first-project {
+    border: 2px solid #2596be;
+    background-image: url("../images/run-buddy.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    object-fit: cover;
+    width: 75%;
+    height: 300px;
+    opacity: 0.4;
+    background-color: #2596be;
+}
+
+.first-project:hover {
+    opacity: 1;
+}
+
+.pro-click {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 230px;
+    padding: 10px 10px 50px 10px;
+    background-color: #2596be;
+    font-size: 20px;
+    height: 45px;
+}
+
+.pro-click p {
+    font-size: 15px;
+}
+
+.pro-click a {
+    text-decoration: none;
+}
+
+
 /* Contact */
 
 .contact-info {

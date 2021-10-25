@@ -61,6 +61,28 @@ header nav ul li a {
 }
 
 
+/* About me */
+
+.about-me {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-me h1 {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.about-me p {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+
 /* Contact */
 
 .contact-info {
@@ -79,11 +101,11 @@ header nav ul li a {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    padding-top: 10px;
+    padding-top: 30px;
     width: 100%;
     flex: 1;
     font-size: 1.50vw;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .contact-info a {
@@ -92,7 +114,12 @@ header nav ul li a {
     /* border-bottom: 3px solid #2596be; */
 }
 
+
+/* Applies to all section h1 elements */
+
 section h1 {
-    font-size: 50px;
+    font-size: 40px;
     text-align: right;
+    border-right: 3px solid gray;
+    padding-right: 10px;
 }

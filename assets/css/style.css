@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+body {
+    background-color: azure;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
 h1 {
     padding-left: 60px;
 }
@@ -69,16 +74,11 @@ header nav ul li a {
     flex-wrap: wrap;
 }
 
-.about-me h1 {
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
 .about-me p {
     display: flex;
     flex-wrap: wrap;
     flex: 1;
-    justify-content: space-between;
+    padding-left: 40px;
     font-size: 18px;
 }
 
@@ -91,11 +91,10 @@ header nav ul li a {
 }
 
 .work h1 {
-    margin-left: -3px;
-    margin-right: 30px;
+    margin-right: 40px;
 }
 
-.first-project {
+.work .first-project {
     border: 2px solid #2596be;
     background-image: url("../images/run-buddy.JPG");
     background-repeat: no-repeat;
@@ -103,13 +102,12 @@ header nav ul li a {
     display: flex;
     flex-wrap: wrap;
     object-fit: cover;
-    width: 75%;
     height: 300px;
     opacity: 0.4;
-    background-color: #2596be;
+    width: 75%;
 }
 
-.first-project:hover {
+.work .first-project:hover {
     opacity: 1;
 }
 
@@ -163,12 +161,10 @@ header nav ul li a {
     /* border-bottom: 3px solid #2596be; */
 }
 
-
-/* Applies to all section h1 elements */
-
-section h1 {
+.section-title {
     font-size: 40px;
     text-align: right;
     border-right: 3px solid gray;
     padding-right: 10px;
+    width: 15%;
 }

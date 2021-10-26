@@ -157,7 +157,8 @@ header nav ul li a {
 .contact-info a {
     color: #2596be;
     text-decoration: none;
-    /* border-bottom: 3px solid #2596be; */
+    border-bottom: 3px solid #2596be;
+    margin-bottom: auto;
 }
 
 .section-title {

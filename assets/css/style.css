@@ -117,6 +117,29 @@ header nav ul li a {
     background-size: cover;
 }
 
+.projects h3 {
+    background-color: var(--primary-color);
+    padding: 10px;
+    width: 110px;
+}
+
+.projects .first-project h3 {
+    margin-top: 200px;
+}
+
+.projects .card h3 {
+    margin-top: 60px;
+    margin-left: -10px;
+}
+
+.projects p {
+    font-size: 14px;
+}
+
+.projects h3 a {
+    text-decoration: none;
+}
+
 .projects .card {
     margin: 10px;
     margin-right: 55px;
@@ -210,9 +233,6 @@ header nav ul li a {
     }
     .about-me p {
         text-align: center;
-    }
-    .jl-projects {
-        align-items: center;
     }
     .contact-info {
         justify-content: center;

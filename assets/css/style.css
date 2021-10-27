@@ -115,6 +115,7 @@ header nav ul li a {
     background-image: url("../images/run-buddy.JPG");
     background-repeat: no-repeat;
     background-size: cover;
+    /* opacity: 0.5; */
 }
 
 .projects h3 {

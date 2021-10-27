@@ -112,9 +112,10 @@ header nav ul li a {
     margin-right: 55px;
     height: 300px;
     flex: 1 1 1400px;
+    background-image: url("../images/run-buddy.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-.projects .jl-projects img {}
 
 .projects .card {
     margin: 10px;
@@ -123,6 +124,30 @@ header nav ul li a {
     border: 4px solid var(--primary-color);
     height: 150px;
     flex: 1 1 550px;
+}
+
+.jl-projects #pro1 {
+    background-image: url("../images/pro-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jl-projects #pro2 {
+    background-image: url("../images/pro-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jl-projects #pro3 {
+    background-image: url("../images/pro-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jl-projects #pro4 {
+    background-image: url("../images/pro-4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 

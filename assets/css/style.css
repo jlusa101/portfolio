@@ -155,7 +155,7 @@ header nav ul li a {
 }
 
 .projects .card h3 {
-    margin-top: 60px;
+    margin-top: 45px;
     margin-left: -10px;
 }
 
@@ -183,7 +183,7 @@ header nav ul li a {
 }
 
 .jl-projects #pro2 {
-    background-image: url("../images/pro-2.jpg");
+    background-image: url("../images/bike_haven.JPG");
     background-repeat: no-repeat;
     background-size: cover;
 }
